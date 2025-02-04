@@ -43,9 +43,23 @@ Note: Please check/confirm if your machine supports Smartport drives before purc
 
 ## Rather DIY?
 
+### SMD Style Board
 Chris Tersteeg has boards for sale in his Tindie store: 
 [link](https://www.tindie.com/products/tersteeg/smartportsd-apple-ii-pcb/)
 
-Background:
+### Through Hole DIY Version
+[SPIISD link](https://github.com/kerokero5150/SP2SD_DIY_KIT/tree/main?tab=readme-ov-file)
+
+## Background:
 
 I needed to boot an Apple IIGS to test my ADB optical mouse board for a customer. I threw together some spare parts (arduino, microSD breakout, jumper wires) to make a hacked SmartportSD. It worked so well that I decided (like others) to spin this tiny board. It's compatible with version 1.17 of the firmware.
+
+## Licenses
+
+### Software
+
+Check the firmware section for the software license.
+
+### Hardware
+
+The hardware design is proprietary and copyrighted by TT Design, 2025. All rights reserved.
