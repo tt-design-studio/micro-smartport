@@ -1,10 +1,18 @@
 # Micro Smartport Board Summary
 
+![](/images/micro_Smartport_diag.jpeg)
+
+
 A simple board to serve up to four disk images to a Smartport compatible vintage Apple II type computer. 
 
 The design is based on previous work from the vintage Apple community.
 
 # Product Information
+
+![](/images/micro_smartport_component_side.jpeg)
+
+- [Purchase completed assembly link on Tindie](https://www.tindie.com/products/ttdesign/micro-smartport-microsd-apple-ii-drive-emulator/)
+
 
 This board is a simple disk drive emulator for Apple II Computers, such as the IIGS, IIc, IIc Plus, and other machines that support Smartport drives in ROM or with an add-on card. 4 disk images can be copied to a MicroSD card and rotated through by holding the eject button on machine turn-on and then rebooting the machine.
 
