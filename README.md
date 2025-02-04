@@ -24,7 +24,7 @@ This board is a simple disk drive emulator for Apple II Computers, such as the I
 - SD card activity LED
 - Authentic NOS DB19 connector
 - Footprint for soldering ICSP pin header (header not included)
-- Compatible with version 1.17 firmware
+- Compatible with version the open source 1.17 firmware (MIT License)
 - Flashed with a firmware with some changes to UX to allow for soft-reboot and switching through more than one image at a time to set the boot disk
 
 Note: Please check/confirm if your machine supports Smartport drives before purchasing. Does not include microSD card.
