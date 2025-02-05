@@ -29,6 +29,24 @@ This board is a simple disk drive emulator for Apple II Computers, such as the I
 
 Note: Please check/confirm if your machine supports Smartport drives before purchasing. Does not include microSD card.
 
+## SD Card Configuration
+
+Files in the formats of ".po", ".hdv", ".2mg" up to 32 MB are supported. Up to four files are supported
+
+1. Use Config.txt file
+2. Name files as `PART1.po`, `PART2.po`, `PART3.po`, `PART4.po`
+
+### Config.txt Text File Format
+
+Place the text file in the SD card root with the file names you want to serve to the comupter.
+
+```
+your_random_file.po
+your_random_file.hdv
+your_random_file.2mg
+another_random_file.po
+```
+
 ## Acknowledgements:
 
 - Robert Justice for his original SmartPortCFA project
