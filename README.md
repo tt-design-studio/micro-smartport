@@ -31,9 +31,11 @@ Note: Please check/confirm if your machine supports Smartport drives before purc
 
 ## SD Card Configuration
 
-Files in the formats of ".po", ".hdv", ".2mg" up to 32 MB are supported. Up to four files are supported
+Files in the formats of ".po", ".hdv", ".2mg" up to 32 MB are supported. Up to four files are supported.
 
-1. Use Config.txt file
+There are two ways to set up the sd card:
+
+1. Use config.txt file
 2. Name files as `PART1.po`, `PART2.po`, `PART3.po`, `PART4.po`
 
 ### Config.txt Text File Format
