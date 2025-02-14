@@ -40,6 +40,8 @@ There are two ways to set up the sd card:
 1. Use config.txt file
 2. Name files as `PART1.po`, `PART2.po`, `PART3.po`, `PART4.po`
 
+Todo: Add support for ".hdv" and ".2mg" to the above second option.
+
 ### `config.txt` Text File Format
 
 Place the text file in the SD card root with the file names you want to serve to the comupter.
