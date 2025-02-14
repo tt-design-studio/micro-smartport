@@ -31,7 +31,7 @@ Note: Please check/confirm if your machine supports Smartport drives before purc
 
 ## SD Card Configuration
 
-The MicroSD card needs to be formatted in **FAT32** or **FAT16** format (exFAT is not supported). A regular SanDisk 16GB card (plan black version) formatted in FAT32 was used for testing the cards after they were flashed. A high performance card is not necessary.
+The MicroSD card needs to be formatted in **FAT32** or **FAT16** format (exFAT is not supported). A regular SanDisk 16GB card (plain black version) formatted in FAT32 was used for testing the cards after they were flashed. A high performance card is not necessary.
 
 Files in the formats of ".po", ".hdv", ".2mg" up to 32 MB are supported. Up to four files are supported.
 
