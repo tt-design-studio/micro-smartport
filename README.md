@@ -81,11 +81,15 @@ If the output is **255**, a ROM replacement is required. Smartport is supported 
 
 Updated ROMs are available online (or you can program your own EPROM), including the enhanced and  updated (2018) **ROM4X**. This version is highly recommended for optimal performance.
 
-## Flashing ATMEGA 328p MCU
+## Flashing the ATMEGA 328p MCU
+
+The board uses the ATMEGA 328p MCU, the same as the classic Arduinos such as the Uno and Nano.
 
 The board has a standard ICSP header footprint for flashing. I use a right angle male pin header pressed against the board to make temporary contact for programming. The pin header is attached to a 6-pin to 10-pin female header socket adapter. This adapter usually comes with a USBasp AVR programmer which can be found on Amazon, eBay, etc. MCU power and IO is at 5V, SD card powre and IO is at 3.3V.
 
-Install avrdude (use brew on MacOS). For a new chip, set the fuses to enable 16 MHz clock speed.
+Install avrdude (use brew on MacOS). You can also use Arduino IDE and set the programmer to the USBasp. The bootloader is not needed since the board uses the ICSP connection for flashing.
+
+For a new chip, set the fuses to enable 16 MHz clock speed with the following command:
 
 ```
 avrdude -c  usbasp -B 3 -p m328p -U lfuse:w:0xFF:m -U hfuse:w:0xDA:m -U efuse:w:0xFD:m
@@ -96,7 +100,6 @@ Flash command:
 ```
 avrdude -c usbasp -B 0.1 -p m328p -U flash:w:SmartportSD-1.17b.ino.hex:i
 ```
-
 
 ---
 
